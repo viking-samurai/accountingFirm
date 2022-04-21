@@ -69,6 +69,7 @@ main{
 .ourWayText{
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: left;
 	text-align: justify;
