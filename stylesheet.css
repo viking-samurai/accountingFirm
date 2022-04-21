@@ -337,7 +337,7 @@ body{
 	width: 50em;
   }
   
-  .teamText{
+  .teamProfile{
 	max-width: 50em;
 	margin: auto 3%;
 	font-size: 2.4rem;
@@ -350,7 +350,14 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	font-size: 2.4rem;
+  }
+  
+  .contactInfo{
+	  font-size: 2.4rem;
+  }
+  
+  .contactBlurb{
+	  font-size: 2.4rem;
   }
 
 }
