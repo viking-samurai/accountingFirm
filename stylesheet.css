@@ -1,6 +1,7 @@
 /*Header and Navigation*/
 header{
 	width: 100%;
+	margin: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -122,7 +123,6 @@ main{
 	align-items: center;
 	text-align: center;
 	width: 52em;
-	margin: auto;
 }
 
 #neil{
@@ -132,7 +132,6 @@ main{
 	align-items: center;
 	text-align: center;
 	width: 52em;
-	margin: auto;
 }
 
 .teamPic{
@@ -275,12 +274,34 @@ body{
   }
   
 /*Header Section*/
-
+  header{
+	width: 100%;
+	margin: 0;
+  }
+  
+  .headerContainer{
+	height: 30em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .blackWolfLogo{
+	width: 30em;
+	margin: auto;
+  }
+  .navigationBar{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+  }
   
 /*About Section*/
   .about{
 	display: flex;
-	flex-direction: column;
+	flex-flow: column wrap;
   }
   .ourWayPic{
 	width: 50em;
