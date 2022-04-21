@@ -264,9 +264,7 @@ body{
   }
   
   p{
-	  display: flex;
-	  flex-direction: row;
-	  flex-wrap: wrap;
+	  width: 90%;
 	  font-size: 3em;
   }
 
