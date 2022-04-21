@@ -1,0 +1,263 @@
+/*Header and Navigation*/
+header{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: white;
+}
+
+.headerContainer{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blackWolfLogo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 240px;
+	padding: 10%;
+}
+
+.navigationBar{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	max-width: 50em;
+}
+
+a.navigationLink:link{color: black; text-decoration: none; width: 12em; text-align: center;}
+a.navigationLink:active{color: black; text-decoration: none; width: 12em; text-align: center;}
+a.navigationLink:hover{color: black; text-decoration: underline; width: 12em; text-align: center;}
+a.navigationLink:visited{color: black; text-decoration: none; width: 12em; text-align: center;}
+/*End of Header section, start of Main section*/
+
+
+/*Main Section*/
+main{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+}
+/*Main About*/
+.about{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.ourWayPic{
+	background-image: url("ourWayPic.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 40em;
+	height: 30em;
+}
+
+.ourWayText{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: left;
+	text-align: justify;
+	max-width: 60em;
+	margin: auto 3%;
+}
+
+/*Main Services*/
+.services{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.servicesPic{
+	background-image: url("servicesPic.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 40em;
+	height: 30em;
+}
+
+.servicesText{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: center;
+	max-width: 60em;
+	margin: auto;
+}
+
+.articleParagraph{
+	max-width: 24em;
+	margin: 3%;
+}
+
+
+/*Main Team*/
+.team{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#andrew{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	width: 50em;
+}
+
+#neil{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	width: 50em;
+}
+
+.teamPic{
+	background-image: url("andrewPic.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 240em;
+	height: 30em;
+}
+
+.teamProfile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+}
+
+.teamText{
+	margin: auto 10%;
+}
+
+/*Main Contact*/
+.contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contactPic{
+	background-image: url("contactUs.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 20em;
+	width: 50em;
+}
+
+.contactInfo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: auto 10%;
+}
+
+.contactBlurb{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	width: 50em;
+}
+
+.contactParagraph{
+	margin: 10%;
+}
+/*End of Main section, start of Footer section*/
+
+
+/*Footer Section*/
+footer{
+	width: 100%;
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: 3em;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	border: solid black 1px;
+}
+
+.footer{
+	text-align: center;
+	font-size: 24px;
+	margin: 1% auto;
+}
+
+
+/*Main Elements (non-sectional)*/
+h1{
+	font-size: 2em;
+	margin: auto;
+}
+
+h2{
+	font-size: 1.6em;
+	margin: 3% auto;
+	color: white;
+}
+
+h3{
+	font-size: 1.4em;
+	margin-bottom: 3%;
+	text-align: left;
+}
+
+h4{
+	font-size: 1.2em;
+	text-align: left;
+}
+
+p{
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+    background-color: black;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+	h1{
+		5rem;
+	}
+
+}
+
