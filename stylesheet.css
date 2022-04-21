@@ -297,7 +297,7 @@ body{
 	  width: 50em;
   }
 
-  .about, .services, #andrew, #neil{
+  .about, .services{
 	display: flex;
 	flex-flow: column wrap;
   }
@@ -322,6 +322,22 @@ body{
 	max-width: 50em;
 	margin: auto 3%;
 	font-size: 2.4rem;
+  }
+  
+  #andrew{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+  }
+
+  #neil{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+  }
+  
+  .teamPic{
+	width: 50em;
   }
 
 }
