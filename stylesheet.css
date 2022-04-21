@@ -250,6 +250,16 @@ body{
 	display: flex;
 	flex-direction: column;
   }
+  
+  .ourWayPic{
+	width: 50em;
+	height: 30em;
+  }
+  
+  .ourWayText{
+	max-width: 50em;
+	margin: auto 3%;
+  }
 
 }
 
