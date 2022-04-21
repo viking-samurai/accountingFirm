@@ -47,6 +47,8 @@ main{
 	margin: auto;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
 	background-color: white;
 }
 /*Main About*/
@@ -92,8 +94,7 @@ main{
 .servicesText{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: flex-start;
 	text-align: center;
 	max-width: 60em;
@@ -101,7 +102,7 @@ main{
 }
 
 .articleParagraph{
-	max-width: 24em;
+	max-width: 22em;
 	margin: 3%;
 }
 
@@ -111,26 +112,26 @@ main{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
 #andrew{
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	text-align: center;
-	width: 50em;
+	width: 52em;
 }
 
 #neil{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	text-align: center;
-	width: 50em;
+	width: 52em;
 }
 
 .teamPic{
@@ -145,13 +146,7 @@ main{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	text-align: center;
-	margin: auto;
-}
-
-.teamText{
-	margin: auto 10%;
+	margin: 3%;
 }
 
 /*Main Contact*/
