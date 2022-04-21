@@ -246,34 +246,13 @@ body{
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
-/*Text and Fonts*/
-  h1{
-	  font-size: 3.2rem;
-  }
-  
-  h2{
-	  font-size: 3.2rem;
-	  margin: 5%;
-  }
-  
-  h3{
-	  font-size: 3rem;
-  }
-  
-  h4{
-	  font-size: 2.8rem;
-  }
-  
-  p{
-	  font-size: 3rem;
-  }
-
 /*Sections*/
 /*Header*/
+/*Header Section*/
   .headerContainer{
 	height: 100%;
 	display: flex;
-	flex-flow: column wrap;
+	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
   }
@@ -288,16 +267,7 @@ body{
 	justify-content: space-evenly;
 	align-items: center;
   }
-
-/*Main*/
-  main{
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	width: 50em;
-  }
   
-/*About Us*/
   .about{
 	display: flex;
 	flex-flow: column wrap;
