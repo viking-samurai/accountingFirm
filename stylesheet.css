@@ -351,6 +351,10 @@ body{
 	align-items: center;
 	text-align: center;
   }
+  
+  .contactParagraph{
+	font-size: 2.4rem;
+  }
 
 }
 
