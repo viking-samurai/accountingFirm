@@ -274,6 +274,11 @@ body{
   }
   
 /*Header Section*/
+  header{
+	width: 100%;
+	margin: 0;
+  }
+  
   .headerContainer{
 	height: 30em;
 	display: flex;
@@ -296,7 +301,7 @@ body{
 /*About Section*/
   .about{
 	display: flex;
-	flex-flow: column wrap;
+	flex-direction: column;
   }
   .ourWayPic{
 	width: 50em;
