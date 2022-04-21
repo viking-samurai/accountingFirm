@@ -267,6 +267,11 @@ body{
 	justify-content: space-evenly;
 	align-items: center;
   }
+  
+/*Main Sections*/
+  main{
+	  width: 50em;
+  }
 
   .about{
 	display: flex;
