@@ -264,8 +264,8 @@ body{
   }
   
   p{
-	  display: flex;
-	  flex-flow: column wrap;
+	  width: 50em;
+	  margin: auto;
 	  font-size: 3em;
   }
 
