@@ -297,7 +297,7 @@ body{
 	  width: 50em;
   }
 
-  .about, .services, .team{
+  .about, .services, #andrew, #neil{
 	display: flex;
 	flex-flow: column wrap;
   }
