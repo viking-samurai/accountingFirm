@@ -264,7 +264,7 @@ body{
   }
   
   p{
-	  margin: auto;
+	  width: 50em;
 	  font-size: 3em;
   }
 
