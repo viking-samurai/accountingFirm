@@ -270,14 +270,15 @@ body{
   
 /*Main Sections and Areas*/
   main{
-	width: 44em;
+	width: 50em;
   }
   
 /*Header Section*/
   .headerContainer{
+	height: 30em;
 	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-evenly;
+	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
   }
   .blackWolfLogo{
@@ -296,7 +297,6 @@ body{
   .about{
 	display: flex;
 	flex-flow: column wrap;
-	width: 44em;
   }
   .ourWayPic{
 	width: 50em;
