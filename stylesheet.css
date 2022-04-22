@@ -358,15 +358,5 @@ body{
   .contactInfo{
 	font-size: 2.4rem;
   }
-  
-  .contactParagraph{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: none;
-	justify-items: center;
-	align-items: center;
-	text-align: center;
-	
-  }
 }
 
