@@ -184,7 +184,6 @@ main{
 	align-items: center;
 	text-align: center;
 	margin: 10%;
-
 }
 /*End of Main section, start of Footer section*/
 
@@ -356,6 +355,13 @@ body{
   }
   
   .contactInfo{
+	font-size: 2.4rem;
+  }
+  
+  .contactParagraph{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: none;
 	font-size: 2.4rem;
   }
 }
