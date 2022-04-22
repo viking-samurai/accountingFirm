@@ -149,7 +149,8 @@ main{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 3%;
+	align-items: center;
+	margin:  auto 3%;
 }
 
 /*Main Contact*/
@@ -230,7 +231,7 @@ h4{
 
 p{
 	font-size: 1.2em;
-	text-align: justify;
+	text-align: left;
 }
 
 body{
