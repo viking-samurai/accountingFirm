@@ -355,7 +355,7 @@ body{
   }
   
   .contactParagraph{
-	margin: 5%;
+	width: 50em;
 	text-align: center;
 	font-size: 2rem;
   }
