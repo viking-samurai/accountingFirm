@@ -209,12 +209,12 @@ footer{
 /*Main Elements (non-sectional)*/
 h1{
 	font-size: 2em;
-	margin: auto;
+	margin: 1%;
 }
 
 h2{
 	font-size: 1.6em;
-	margin: 3% auto;
+	margin: 3%;
 	color: white;
 }
 
