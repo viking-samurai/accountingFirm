@@ -176,17 +176,14 @@ main{
 	margin: auto 10%;
 }
 
-.contactBlurb{
+.contactParagraph{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	align-items: center;
 	text-align: center;
-	margin: auto;
-	width: 50em;
-}
-
-.contactParagraph{
 	margin: 10%;
+	width: 30em;
 }
 /*End of Main section, start of Footer section*/
 
