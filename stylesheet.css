@@ -355,6 +355,7 @@ body{
   }
   
   .contactParagraph{
+	margin: auto;
 	text-align: center;
   }
 }
