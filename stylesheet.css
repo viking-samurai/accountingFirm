@@ -307,8 +307,8 @@ body{
   
   .ourWayText{
 	max-width: 50em;
-	margin: auto 3%;
-	font-size: 2.8rem;
+	margin: auto 5%;
+	font-size: 3rem;
   }
 
 /*Services*/
@@ -319,8 +319,8 @@ body{
   
   .servicesText{
 	max-width: 50em;
-	margin: auto 3%;
-	font-size: 2.8rem;
+	margin: auto 5%;
+	font-size: 3rem;
   }
 
 /*Team*/  
@@ -336,8 +336,8 @@ body{
   
   .teamProfile{
 	max-width: 50em;
-	margin: auto 3%;
-	font-size: 2.8rem;
+	margin: auto 5%;
+	font-size: 3rem;
   }
   
 /*Contact*/
